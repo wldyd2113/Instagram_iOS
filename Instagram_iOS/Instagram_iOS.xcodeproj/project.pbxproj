@@ -47,6 +47,34 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		3B6233D52C3C017D002F9C42 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		3B6233D62C3C01A9002F9C42 /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddView;
+			sourceTree = "<group>";
+		};
+		3B6233D72C3C01DE002F9C42 /* VedioView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VedioView;
+			sourceTree = "<group>";
+		};
+		3B6233D82C3C0217002F9C42 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 		3B7B8E2C2C3BD8230080D9D6 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +110,10 @@
 			children = (
 				3B7B8E4D2C3BDB520080D9D6 /* LoginView */,
 				3B6233D22C3BFD22002F9C42 /* HomeView */,
+				3B6233D52C3C017D002F9C42 /* SearchView */,
+				3B6233D62C3C01A9002F9C42 /* AddView */,
+				3B6233D72C3C01DE002F9C42 /* VedioView */,
+				3B6233D82C3C0217002F9C42 /* ProfileView */,
 			);
 			path = View;
 			sourceTree = "<group>";
