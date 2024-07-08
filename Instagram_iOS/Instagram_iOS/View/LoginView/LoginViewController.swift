@@ -8,11 +8,28 @@
 
 import UIKit
 import SwiftUI
+
 class LoginViewController: UIViewController {
+    
+    private let mainImage: UIImageView = {
+        let mainImage = UIImageView()
+        mainImage.image = UIImage(named: "logo")
+        mainImage.translatesAutoresizingMaskIntoConstraints = false
+        
+        return mainImage
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        
+        view.addSubview(mainImage)
+        NSLayoutConstraint.activate([
+            mainImage.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            mainImage.widthAnchor.constraint(equalToConstant: 200),
+            mainImage.heightAnchor.constraint(equalToConstant: 200),
+            
+        ])
+        
     }
 
 }
