@@ -56,10 +56,7 @@ class LoginViewController: UIViewController {
             appleButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
             appleButton.widthAnchor.constraint(equalToConstant: 300),
             appleButton.heightAnchor.constraint(equalToConstant: 50),
-            
-            
-            
-            
+        
         ])
         
     }
