@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B52608E2C3D261A00BB588B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52608D2C3D261A00BB588B /* SearchViewController.swift */; };
+		3B5260902C3D262B00BB588B /* UploadFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52608F2C3D262B00BB588B /* UploadFeedViewController.swift */; };
+		3B5260922C3D263400BB588B /* VedioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5260912C3D263400BB588B /* VedioViewController.swift */; };
+		3B5260942C3D264200BB588B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5260932C3D264200BB588B /* ProfileViewController.swift */; };
 		3B6233D42C3BFD4C002F9C42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6233D32C3BFD4C002F9C42 /* HomeViewController.swift */; };
 		3B7B8E392C3BD8230080D9D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B8E382C3BD8230080D9D6 /* AppDelegate.swift */; };
 		3B7B8E3B2C3BD8230080D9D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B8E3A2C3BD8230080D9D6 /* SceneDelegate.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B52608D2C3D261A00BB588B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3B52608F2C3D262B00BB588B /* UploadFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFeedViewController.swift; sourceTree = "<group>"; };
+		3B5260912C3D263400BB588B /* VedioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedioViewController.swift; sourceTree = "<group>"; };
+		3B5260932C3D264200BB588B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B6233D32C3BFD4C002F9C42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3B7B8E352C3BD8230080D9D6 /* Instagram_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7B8E382C3BD8230080D9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +47,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B52608C2C3D195200BB588B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3B6233D22C3BFD22002F9C42 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,20 +65,23 @@
 		3B6233D52C3C017D002F9C42 /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				3B52608D2C3D261A00BB588B /* SearchViewController.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
 		};
-		3B6233D62C3C01A9002F9C42 /* AddView */ = {
+		3B6233D62C3C01A9002F9C42 /* UploadFeedView */ = {
 			isa = PBXGroup;
 			children = (
+				3B52608F2C3D262B00BB588B /* UploadFeedViewController.swift */,
 			);
-			path = AddView;
+			path = UploadFeedView;
 			sourceTree = "<group>";
 		};
 		3B6233D72C3C01DE002F9C42 /* VedioView */ = {
 			isa = PBXGroup;
 			children = (
+				3B5260912C3D263400BB588B /* VedioViewController.swift */,
 			);
 			path = VedioView;
 			sourceTree = "<group>";
@@ -71,6 +89,7 @@
 		3B6233D82C3C0217002F9C42 /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
+				3B5260932C3D264200BB588B /* ProfileViewController.swift */,
 			);
 			path = ProfileView;
 			sourceTree = "<group>";
@@ -97,6 +116,7 @@
 				3B7B8E382C3BD8230080D9D6 /* AppDelegate.swift */,
 				3B7B8E3A2C3BD8230080D9D6 /* SceneDelegate.swift */,
 				3B7B8E3C2C3BD8230080D9D6 /* ViewController.swift */,
+				3B52608C2C3D195200BB588B /* Model */,
 				3B7B8E4C2C3BDAF20080D9D6 /* View */,
 				3B7B8E412C3BD8240080D9D6 /* Assets.xcassets */,
 				3B7B8E432C3BD8240080D9D6 /* LaunchScreen.storyboard */,
@@ -111,7 +131,7 @@
 				3B7B8E4D2C3BDB520080D9D6 /* LoginView */,
 				3B6233D22C3BFD22002F9C42 /* HomeView */,
 				3B6233D52C3C017D002F9C42 /* SearchView */,
-				3B6233D62C3C01A9002F9C42 /* AddView */,
+				3B6233D62C3C01A9002F9C42 /* UploadFeedView */,
 				3B6233D72C3C01DE002F9C42 /* VedioView */,
 				3B6233D82C3C0217002F9C42 /* ProfileView */,
 			);
@@ -196,9 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B52608E2C3D261A00BB588B /* SearchViewController.swift in Sources */,
 				3B6233D42C3BFD4C002F9C42 /* HomeViewController.swift in Sources */,
+				3B5260922C3D263400BB588B /* VedioViewController.swift in Sources */,
 				3B7B8E4F2C3BDBA20080D9D6 /* LoginViewController.swift in Sources */,
+				3B5260902C3D262B00BB588B /* UploadFeedViewController.swift in Sources */,
 				3B7B8E3D2C3BD8230080D9D6 /* ViewController.swift in Sources */,
+				3B5260942C3D264200BB588B /* ProfileViewController.swift in Sources */,
 				3B7B8E392C3BD8230080D9D6 /* AppDelegate.swift in Sources */,
 				3B7B8E3B2C3BD8230080D9D6 /* SceneDelegate.swift in Sources */,
 			);
